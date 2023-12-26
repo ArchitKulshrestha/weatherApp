@@ -14,7 +14,7 @@ const FormInput = () => {
   const onSubmit = async (data) => {
     setLoading(true);
     const city = data.city;
-    const weather = `http://api.weatherapi.com/v1/current.json?key=394b82980ba841a697b122237232508&q=${city}&aqi=no`;
+    const weather = `https://api.weatherapi.com/v1/current.json?key=394b82980ba841a697b122237232508&q=${city}&aqi=no`;
     await axios
       .get(weather)
       .then((response) => {
