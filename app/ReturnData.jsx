@@ -14,7 +14,7 @@ const ReturnData = ({
     <>
       {icon && (
         <div className="flex flex-col justify-center w-full">
-          <div className=" text-white mx-auto bg-slate-800 p-10 w-full sm:w-[400px] rounded-md text-xl">
+          <div className=" text-white mx-auto bg-slate-800 p-10 w-full sm:w-[400px] rounded-md mt-4 text-xl">
             <h1>City: {city}</h1>
             <h1>Region: {region}</h1>
             <h1> Country: {country}</h1>
